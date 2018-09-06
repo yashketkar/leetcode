@@ -5,9 +5,9 @@ class Solution(object):
         :type target: int
         :rtype: List[int]
         """
-        dict = {}
-        for i, num in enumerate(nums):
-            if dict.get(target-num, -1) == -1:
-                dict[num] = i
-            elif i!=dict.get(target-num, -1):
-                return [dict.get(target-num, -1), i]
+        seen = {}
+        for i in range(len(nums)):
+            if target-nums[i] in seen:
+                return [seen[target-nums[i]],i]
+            else:
+                seen[nums[i]]=i

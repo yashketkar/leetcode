@@ -11,22 +11,20 @@ class Solution(object):
         :type l2: ListNode
         :rtype: ListNode
         """
-        root = ListNode(0)
-        l3 = root
-        carryValue = 0
-        while l1!=None or l2!=None or carryValue==1:
-            sumValue=carryValue
-            if l1!=None:
-                sumValue += l1.val
+        root = point = ListNode(0)
+        carry = 0
+        while l1 or l2 or carry:
+            x = 0
+            if l1:
+                x += l1.val
+            if l2:
+                x += l2.val
+            x += carry
+            point.next = ListNode(x%10)
+            carry = x/10
+            point = point.next
+            if l1:
                 l1 = l1.next
-            if l2!=None:
-                sumValue += l2.val
-                l2 = l2.next        
-            if sumValue >= 10:
-                carryValue = 1
-                sumValue = sumValue -10
-            else:
-                carryValue = 0
-            l3.next = ListNode(sumValue)
-            l3 = l3.next
+            if l2:
+                l2 = l2.next
         return root.next

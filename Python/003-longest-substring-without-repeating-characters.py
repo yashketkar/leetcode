@@ -4,12 +4,12 @@ class Solution(object):
         :type s: str
         :rtype: int
         """
-        seen = {}
-        maxLength = 0
         i = 0
+        longest = 0
+        seen = {}
         for j in range(len(s)):
-            if seen.get(s[j], -1) != -1:
-                i = max(seen[s[j]], i)
-            maxLength = max(maxLength, j - i + 1)
+            if s[j] in seen:
+                 i = max(seen[s[j]],i)
+            longest = max(longest, j-i+1)
             seen[s[j]] = j+1
-        return maxLength
+        return longest
