@@ -24,6 +24,7 @@
 | [073. Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/) | [073-set-matrix-zeroes.py](/Python3/073-set-matrix-zeroes.py) |
 | [078. Subsets](https://leetcode.com/problems/subsets/) | [078-subsets.py](/Python3/078-subsets.py) |
 | [089. Gray Code](https://leetcode.com/problems/gray-code/) | [089-gray-code.py](/Python3/089-gray-code.py) |
+| [101. Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) | [101-symmetric-tree.py](/Python3/101-symmetric-tree.py) |
 | [102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | [102-binary-tree-level-order-traversal.py](/Python3/102-binary-tree-level-order-traversal.py) |
 | [110. Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) | [110-balanced-binary-tree.py](/Python3/110-balanced-binary-tree.py) |
 | [119. Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/) | [119-pascals-triangle-ii.py](/Python3/119-pascals-triangle-ii.py) |
