@@ -26,6 +26,7 @@
 | [089. Gray Code](https://leetcode.com/problems/gray-code/) | [089-gray-code.py](/Python3/089-gray-code.py) |
 | [101. Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) | [101-symmetric-tree.py](/Python3/101-symmetric-tree.py) |
 | [102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | [102-binary-tree-level-order-traversal.py](/Python3/102-binary-tree-level-order-traversal.py) |
+| [105. Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | [105-construct-binary-tree-from-preorder-and-inorder-traversal.py](/Python3/105-construct-binary-tree-from-preorder-and-inorder-traversal.py) |
 | [110. Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) | [110-balanced-binary-tree.py](/Python3/110-balanced-binary-tree.py) |
 | [119. Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/) | [119-pascals-triangle-ii.py](/Python3/119-pascals-triangle-ii.py) |
 | [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [121-best-time-to-buy-and-sell-stock.py](/Python3/121-best-time-to-buy-and-sell-stock.py) |
